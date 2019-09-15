@@ -1,287 +1,927 @@
-<!DOCTYPE html>
-<html>
-
-
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-
-
-<title>Mobile Covers| Home</title>
-
-
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,600,800,700,500,300,100,900' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Arimo:400,700,700italic' rel='stylesheet' type='text/css'>
-<link href="css/component.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-
+<title>Flora Mobile Covers</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="Description" content="Girls Mobile Covers, Women Mobile Covers , Smartphone Compatible Covers , Samsung, Apple , Iphine , Huawei " />
-
-
-<script src="js/jquery.min.js"></script>
-<!-- <script src="js/simpleCart.min.js"> </script> -->
-<link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
-<script src="js/megamenu.js" type="text/javascript"></script>
-<script>
-	$(document).ready(function(){
-		$(".megamenu").megamenu();
-	});
-</script>
-
-
-
+<meta name="description" content="e-commerce site well design with responsive view." />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+<link href="css/stylesheet.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link href="owl-carousel/owl.carousel.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="owl-carousel/owl.transitions.css" type="text/css" rel="stylesheet" media="screen" />
+<script src="javascript/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="javascript/jstree.min.js" type="text/javascript"></script>
+<script src="javascript/template.js" type="text/javascript" ></script>
+<script src="javascript/common.js" type="text/javascript"></script>
+<script src="javascript/global.js" type="text/javascript"></script>
+<script src="owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
 </head>
-
-
-
-
 <body>
-<!--header-->
-<div class="header2 text-center">
-		 <div class="container">
+<div class="preloader loader" style="display: block; background:#f2f2f2;"> <img src="image/loader.gif"  alt="#"/></div>
 
-		     <div class="main-header">
-				  <div class="carting">
-					 <ul>
-					 	<li>
-					 		<a href="login.html">LOGIN</a>
-					 	</li>
-					 </ul>
-				  </div>
-				  <!-- This is Logo -->
-				 <div class="logo">
-					 <h3>
-					 	<a href="#">MOBILE COVERS</a>
-					 </h3>
-				 </div>
-				 <!-- This is Cart Box -->
-				 <div class="box_1">				 
-					 <a href="cart.html">
-					 	<h3>
-					 		Cart: 
-					 		<span class="simpleCart_total"></span>
-					 		 (
-					 		<span id="simpleCart_quantity" class="simpleCart_quantity"></span>
-					 		 items)
-					 		<img src="images/cart.png" alt=""/>
-					 	</h3>
-					 </a>
-				 </div>
-				 
-				 <div class="clearfix"></div>
-			 </div>
-					
-			<ul class="megamenu skyblue">
-				<li class="active"><a class="color1" href="index.html">Home</a></li>
-				<li><a href="products.html">PRODUCTS</a></li>
-				<li><a href="blog.html">BLOG</a></li>
-				<li><a href="cart.html">CART</a></li>
-				<li><a href="about.html">ABOUT</a></li>				
-				<li><a href="contact.html">CONTACT</a></li>
-			</ul> 			 
-			<div class="clearfix"></div>	
+<!-- Header -->
+<header>
+  <div class="header-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="top-right pull-right">
+            <div id="top-links" class="nav pull-right">
+              <ul class="list-inline">
+                <li class="dropdown account">
+                  <a href="#" title="My Account" class="dropdown-toggle" data-toggle="dropdown">
+                    <i class="fa fa-user"></i>
+                    <span>My Account</span>
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                  </ul>
+                </li>
+                <li><a href="#" id="wishlist-total" title="Wish List (0)"><i class="fa fa-heart"></i><span>Wish List</span><span> (0)</span></a></li>
+              </ul>
+              <div class="search-box">
+                <input class="input-text" placeholder="Search By Products.." type="text">
+                <button class="search-btn"><i class="fa fa-search"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="header-inner">
+      <div class="col-sm-4 col-xs-6 header-left">
+        <div class="shipping">
+          <div class="shipping-img"></div>
+          <div class="shipping-text">(+962) 78-000-1233<br>
+            <span class="shipping-detail"> Online Support</span></div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12 header-middle">
+        <div class="header-middle-top">
+          <div id="logo">
+            <a href="index.html">
+              Flora<br> Mobile Covers
+              <!-- <img src="image/logo.png" title="E-Commerce" alt="E-Commerce" class="img-responsive" /> -->
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12 header-right">
+        <div id="cart" class="btn-group btn-block">
+          <button type="button" class="btn btn-inverse btn-block btn-lg dropdown-toggle cart-dropdown-button"> <span id="cart-total"><span class="cart-title">Shopping Cart</span><br>
+          0 item(s) - $0.00</span> </button>
+          <ul class="dropdown-menu pull-right cart-dropdown-menu">
+            <li>
+              <table class="table table-striped">
+                <tbody>
+                  <tr>
+                    <td class="text-center"><a href="#"><img class="img-thumbnail" title="lorem ippsum dolor dummy" alt="lorem ippsum dolor dummy" src="image/product/7product50x59.jpg"></a></td>
+                    <td class="text-left"><a href="#">lorem ippsum dolor dummy</a></td>
+                    <td class="text-right">x 1</td>
+                    <td class="text-right">$254.00</td>
+                    <td class="text-center"><button class="btn btn-danger btn-xs" title="Remove" type="button"><i class="fa fa-times"></i></button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+            <li>
+              <div>
+                <table class="table table-bordered">
+                  <tbody>
+                    <tr>
+                      <td class="text-right"><strong>Sub-Total</strong></td>
+                      <td class="text-right">$210.00</td>
+                    </tr>
+                    <tr>
+                      <td class="text-right"><strong>Eco Tax (-2.00)</strong></td>
+                      <td class="text-right">$2.00</td>
+                    </tr>
+                    <tr>
+                      <td class="text-right"><strong>VAT (20%)</strong></td>
+                      <td class="text-right">$42.00</td>
+                    </tr>
+                    <tr>
+                      <td class="text-right"><strong>Total</strong></td>
+                      <td class="text-right">$254.00</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p class="text-right"> <span class="btn-viewcart"><a href="cart.html"><strong><i class="fa fa-shopping-cart"></i> View Cart</strong></a></span> <span class="btn-checkout"><a href="checkout.html"><strong><i class="fa fa-share"></i> Checkout</strong></a></span> </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <nav id="menu" class="navbar">
+      <div class="nav-inner">
+        <div class="navbar-header"><span id="category" class="visible-xs">Categories</span>
+          <button type="button" class="btn btn-navbar navbar-toggle" ><i class="fa fa-bars"></i></button>
+        </div>
 
-		</div>
+        <div class="navbar-collapse">
+          <ul class="main-navigation">
+            <li><a href="index.html"   class="parent"  >Home</a> </li>
+            <li><a href="category.html"   class="parent"  >Collection</a> </li>
+<!--             <li><a href="category.html"   class="parent"  >Women</a> </li>
+            <li><a href="category.html"   class="parent"  >Men</a> </li>
+            <li><a href="category.html"   class="parent"  >Accessories</a> </li> -->
+<!--             <li><a href="#" class="active parent">Page</a>
+              <ul>
+                <li><a href="category.html">Category Page</a></li>
+                <li><a href="cart.html">Cart Page</a></li>
+                <li><a href="checkout.html">Checkout Page</a></li>
+                <li><a href="blog.html" >Blog Page</a></li>
+                <li><a href="singale-blog.html" >Singale Blog Page</a></li>
+                <li><a href="register.html">Register Page</a></li>
+                <li><a href="contact.html">Contact Page</a></li>
+              </ul>
+            </li> -->
+            <li><a href="blog.html" class="parent"  >Blog</a></li>
+            <li><a href="about-us.html" >About us</a></li>
+            <li><a href="contact.html" >Contact Us</a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
 
-	</div>
-	<!--header-->
-<div class="container-fluid">
-	<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-	  <div class="carousel-inner">
-	    <div class="carousel-item active" data-interval="10000">
-	      <img src="images/slider_image_2.jpg" class="d-block w-100" alt="Mobile Covers">
-	    </div>
-	    <div class="carousel-item" data-interval="2000">
-	      <img src="images/slider_image_3.jpg" class="d-block w-100" alt="Mobile Covers">
-	    </div>
-	    <div class="carousel-item">
-	      <img src="images/slider_image_4.jpg" class="d-block w-100" alt="Mobile Covers">
-	    </div>
-	  </div>
-	  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Previous</span>
-	  </a>
-	  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Next</span>
-	  </a>
-	</div>
-	<div class="clearfix"></div>
+<!-- Main Slider -->
+<div class="mainbanner">
+  <div id="main-banner" class="owl-carousel home-slider">
+    <div class="item"> 
+      <a href="#">
+        <img src="image/banners/slider_image_2.jpg" alt="main-banner1" class="img-responsive" style="width: 1903px; height: 700px;" />
+      </a> 
+    </div>
+    <div class="item">
+      <a href="#">
+        <img src="image/banners/slider_image_8.png" alt="main-banner2" class="img-responsive" style="width: 1903px;height: 700px;" />
+      </a>
+    </div>
+    <div class="item">
+      <a href="#">
+        <img src="image/banners/slider_image_9.png" alt="main-banner3" class="img-responsive" style="width: 1903px;height: 700px;" />
+      </a>
+    </div>
+    <div class="item">
+      <a href="#">
+        <img src="image/banners/slider_image_7.png" alt="main-banner3" class="img-responsive" style="width: 1903px;height: 700px;" />
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+<!-- Sub Slider -->
+  <div class="row">
+    <div class="cms_banner ">
+      <div class="col-md-4 cms-banner-left">
+        <a href="#">
+          <img alt="#" src="image/banners/subbanner4.jpg" style="width: 380px;height: 300px;" >
+        </a>
+      </div>
+      <div class="col-md-4 cms-banner-middle">
+        <a href="#">
+          <img alt="#" src="image/banners/subbanner5.jpg" style="width: 380px;height: 300px;">
+        </a>
+      </div>
+      <div class="col-md-4 cms-banner-right">
+        <a href="#">
+          <img alt="#" src="image/banners/subbanner6.jpg" style="width: 380px;height: 300px;">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- New & Best Products -->
+  <div class="row">
+    <div id="content" class="col-sm-12">
+      <div class="customtab">
+        <div id="tabs" class="customtab-wrapper">
+          <ul class='customtab-inner'>
+            <li class='tab'><a href="#tab-latest">New Product</a></li>
+            <!-- <li class='tab'><a href="#tab-special">Special Product</a></li> -->
+            <li class='tab'><a href="#tab-bestseller">Bestseller Items</a></li>
+          </ul>
+        </div>
+        <div id="tab-latest" class="tab-content">
+          <div class="box">
+            <div id="latest-slidertab" class="row owl-carousel product-slider">
+
+              <!-- Pdroduct 1 - New -->
+              <div class="item">
+                <div class="product-thumb transition">
+                  <div class="image product-imageblock">
+                    <a href="product.html">
+                      <img src="image/product/product1.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" />
+                    </a>
+                    <div class="button-group">
+                      <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                      <button type="button" class="addtocart-btn" >Add To Cart</button>
+                      <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                    </div>
+                  </div>
+                  <div class="caption product-detail">
+                    <h4 class="product-name"><a href="#" title="lorem ippsum dolor dummy">Samsung Note 9</a></h4>
+                    <p class="price product-price">$32.00<span class="price-tax">Ex Tax: $10.00</span></p>
+                    <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                  </div>
+                  <div class="button-group">
+                    <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="addtocart-btn" >Add To Cart</button>
+                    <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pdroduct 2 - New -->
+              <div class="item">
+                <div class="product-thumb transition">
+                  <div class="image product-imageblock">
+                    <a href="product.html">
+                      <img src="image/product/product2.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" />
+                    </a>
+                    <div class="button-group">
+                      <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                      <button type="button" class="addtocart-btn" >Add To Cart</button>
+                      <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                    </div>
+                  </div>
+                  <div class="caption product-detail">
+                    <h4 class="product-name"><a href="#" title="lorem ippsum dolor dummy">Huawei P30 Pro</a></h4>
+                    <p class="price product-price">$25.00<span class="price-tax">Ex Tax: $12.00</span></p>
+                    <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                  </div>
+                  <div class="button-group">
+                    <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="addtocart-btn" >Add To Cart</button>
+                    <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pdroduct 3 - New -->
+              <div class="item">
+                <div class="product-thumb transition">
+                  <div class="image product-imageblock">
+                    <a href="product.html">
+                      <img src="image/product/product3.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" />
+                    </a>
+                    <div class="button-group">
+                      <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                      <button type="button" class="addtocart-btn" >Add To Cart</button>
+                      <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                    </div>
+                  </div>
+                  <div class="caption product-detail">
+                    <h4 class="product-name"><a href="#" title="lorem ippsum dolor dummy">Huawei Mate</a></h4>
+                    <p class="price product-price">$24.00<span class="price-tax">Ex Tax: $13.00</span></p>
+                    <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                  </div>
+                  <div class="button-group">
+                    <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="addtocart-btn" >Add To Cart</button>
+                    <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                  </div>
+                </div>
+              </div>
+              <!-- Pdroduct 4 - New -->
+              <div class="item">
+                <div class="product-thumb transition">
+                  <div class="image product-imageblock">
+                    <a href="product.html">
+                      <img src="image/product/product4.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" />
+                    </a>
+                    <div class="button-group">
+                      <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                      <button type="button" class="addtocart-btn" >Add To Cart</button>
+                      <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                    </div>
+                  </div>
+                  <div class="caption product-detail">
+                    <h4 class="product-name"><a href="#" title="lorem ippsum dolor dummy">Samsung Note 10</a></h4>
+                    <p class="price product-price">$36.00<span class="price-tax">Ex Tax: $15.00</span></p>
+                    <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                  </div>
+                  <div class="button-group">
+                    <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="addtocart-btn" >Add To Cart</button>
+                    <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                  </div>
+                </div>
+              </div>
+              <!-- Pdroduct 5 - New -->
+              <div class="item">
+                <div class="product-thumb transition">
+                  <div class="image product-imageblock">
+                    <a href="product.html">
+                      <img src="image/product/product5.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" />
+                    </a>
+                    <div class="button-group">
+                      <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                      <button type="button" class="addtocart-btn" >Add To Cart</button>
+                      <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                    </div>
+                  </div>
+                  <div class="caption product-detail">
+                    <h4 class="product-name"><a href="#" title="lorem ippsum dolor dummy">Huawei P30 Lite</a></h4>
+                    <p class="price product-price">$25.00<span class="price-tax">Ex Tax: $12.00</span></p>
+                    <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                  </div>
+                  <div class="button-group">
+                    <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="addtocart-btn" >Add To Cart</button>
+                    <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                  </div>
+                </div>
+              </div>
+              <!-- Pdroduct 6 - New -->
+              <div class="item">
+                <div class="product-thumb transition">
+                  <div class="image product-imageblock">
+                    <a href="product.html">
+                      <img src="image/product/product6.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" />
+                    </a>
+                    <div class="button-group">
+                      <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                      <button type="button" class="addtocart-btn" >Add To Cart</button>
+                      <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                    </div>
+                  </div>
+                  <div class="caption product-detail">
+                    <h4 class="product-name"><a href="#" title="lorem ippsum dolor dummy">Apple Iphone 11</a></h4>
+                    <p class="price product-price">$32.00<span class="price-tax">Ex Tax: $19.00</span></p>
+                    <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                  </div>
+                  <div class="button-group">
+                    <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="addtocart-btn" >Add To Cart</button>
+                    <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- tab-latest-->
+<!--         <div id="tab-special" class="tab-content">
+          <div class="box">
+            <div id="special-slidertab" class="row owl-carousel product-slider">
+              <div class="item">
+                <div class="product-thumb transition">
+                  <div class="image product-imageblock"> <a href="product.html"> <img src="image/product/product4.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
+                    <div class="button-group">
+                      <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                      <button type="button" class="addtocart-btn" >Add To Cart</button>
+                      <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                    </div>
+                  </div>
+                  <div class="caption product-detail">
+                    <h4 class="product-name"><a href="product.html" title="lorem ippsum dolor dummy">lorem ippsum dolor dummy</a></h4>
+                    <p class="price product-price"> <span class="price-new">$254.00</span> <span class="price-old">$272.00</span> <span class="price-tax">Ex Tax: $210.00</span> </p>
+                  </div>
+                  <div class="button-group">
+                    <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="addtocart-btn" >Add To Cart</button>
+                    <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="product-thumb transition">
+                  <div class="image product-imageblock"> <a href="product.html"> <img src="image/product/product5.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
+                    <div class="button-group">
+                      <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                      <button type="button" class="addtocart-btn" >Add To Cart</button>
+                      <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                    </div>
+                  </div>
+                  <div class="caption product-detail">
+                    <h4 class="product-name"><a href="product.html" title="lorem ippsum dolor dummy">lorem ippsum dolor dummy</a></h4>
+                    <p class="price product-price"> <span class="price-new">$254.00</span> <span class="price-old">$272.00</span> <span class="price-tax">Ex Tax: $210.00</span> </p>
+                  </div>
+                  <div class="button-group">
+                    <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="addtocart-btn" >Add To Cart</button>
+                    <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="product-thumb transition">
+                  <div class="image product-imageblock"> <a href="product.html"> <img src="image/product/product5.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
+                    <div class="button-group">
+                      <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                      <button type="button" class="addtocart-btn" >Add To Cart</button>
+                      <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                    </div>
+                  </div>
+                  <div class="caption product-detail">
+                    <h4 class="product-name"><a href="product.html" title="lorem ippsum dolor dummy">lorem ippsum dolor dummy</a></h4>
+                    <p class="price product-price"> <span class="price-new">$254.00</span> <span class="price-old">$272.00</span> <span class="price-tax">Ex Tax: $210.00</span> </p>
+                  </div>
+                  <div class="button-group">
+                    <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="addtocart-btn" >Add To Cart</button>
+                    <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="product-thumb transition">
+                  <div class="image product-imageblock"> <a href="product.html"> <img src="image/product/product6.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
+                    <div class="button-group">
+                      <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                      <button type="button" class="addtocart-btn" >Add To Cart</button>
+                      <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                    </div>
+                  </div>
+                  <div class="caption product-detail">
+                    <h4 class="product-name"><a href="product.html" title="lorem ippsum dolor dummy">lorem ippsum dolor dummy</a></h4>
+                    <p class="price product-price"> <span class="price-new">$254.00</span> <span class="price-old">$272.00</span> <span class="price-tax">Ex Tax: $210.00</span> </p>
+                  </div>
+                  <div class="button-group">
+                    <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="addtocart-btn" >Add To Cart</button>
+                    <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="product-thumb transition">
+                  <div class="image product-imageblock"> <a href="product.html"> <img src="image/product/product7.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
+                    <div class="button-group">
+                      <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                      <button type="button" class="addtocart-btn" >Add To Cart</button>
+                      <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product"><i class="fa fa-exchange"></i></button>
+                    </div>
+                  </div>
+                  <div class="caption product-detail">
+                    <h4 class="product-name"><a href="product.html" title="lorem ippsum dolor dummy">lorem ippsum dolor dummy</a></h4>
+                    <p class="price product-price"> <span class="price-new">$254.00</span> <span class="price-old">$272.00</span> <span class="price-tax">Ex Tax: $210.00</span> </p>
+                  </div>
+                  <div class="button-group">
+                    <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="addtocart-btn" >Add To Cart</button>
+                    <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="product-thumb transition">
+                  <div class="image product-imageblock"> <a href="#"> <img src="image/product/product6.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
+                    <div class="button-group">
+                      <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                      <button type="button" class="addtocart-btn" >Add To Cart</button>
+                      <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                    </div>
+                  </div>
+                  <div class="caption product-detail">
+                    <h4 class="product-name"><a href="product.html" title="lorem ippsum dolor dummy">lorem ippsum dolor dummy</a></h4>
+                    <p class="price product-price"> <span class="price-new">$254.00</span> <span class="price-old">$272.00</span> <span class="price-tax">Ex Tax: $210.00</span> </p>
+                  </div>
+                  <div class="button-group">
+                    <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="addtocart-btn" >Add To Cart</button>
+                    <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <!-- Best Seller-->
+        <div id="tab-bestseller" class="tab-content">
+          <div class="box">
+            <div id="bestseller-slidertab" class="row owl-carousel product-slider">
+              <!-- Pdroduct 7 - Best Seller -->
+              <div class="item">
+                <div class="product-thumb transition">
+                  <div class="image product-imageblock">
+                    <a href="#">
+                      <img src="image/product/product7.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" />
+                    </a>
+                    <div class="button-group">
+                      <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                      <button type="button" class="addtocart-btn" >Add To Cart</button>
+                      <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                    </div>
+                  </div>
+                  <div class="caption product-detail">
+                    <h4 class="product-name"><a href="product.html" title="lorem ippsum dolor dummy">IPhone XR</a></h4>
+                    <p class="price product-price"> <span class="price-new">$24.00</span> <span class="price-old">$38.00</span> <span class="price-tax">Ex Tax: $210.00</span> </p>
+                  </div>
+                  <div class="button-group">
+                    <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="addtocart-btn" >Add To Cart</button>
+                    <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                  </div>
+                </div>
+              </div>
+              <!-- Pdroduct 8 - Best Seller -->
+              <div class="item">
+                <div class="product-thumb transition">
+                  <div class="image product-imageblock">
+                    <a href="product.html">
+                      <img src="image/product/product8.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" />
+                    </a>
+                    <div class="button-group">
+                      <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                      <button type="button" class="addtocart-btn" >Add To Cart</button>
+                      <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                    </div>
+                  </div>
+                  <div class="caption product-detail">
+                    <h4 class="product-name"><a href="product.html" title="lorem ippsum dolor dummy">IPhone XR</a></h4>
+                    <p class="price product-price"> <span class="price-new">$24.00</span> <span class="price-old">$38.00</span> <span class="price-tax">Ex Tax: $210.00</span> </p>
+                  </div>
+                  <div class="button-group">
+                    <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="addtocart-btn" >Add To Cart</button>
+                    <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                  </div>
+                </div>
+              </div>
+              <!-- Pdroduct 9 - Best Seller -->
+              <div class="item">
+                <div class="product-thumb transition">
+                  <div class="image product-imageblock">
+                    <a href="product.html">
+                      <img src="image/product/product9.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" />
+                    </a>
+                    <div class="button-group">
+                      <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                      <button type="button" class="addtocart-btn" >Add To Cart</button>
+                      <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                    </div>
+                  </div>
+                  <div class="caption product-detail">
+                    <h4 class="product-name"><a href="product.html" title="lorem ippsum dolor dummy">Samsung Note 9</a></h4>
+                    <p class="price product-price"> <span class="price-new">$24.00</span> <span class="price-old">$27.00</span> <span class="price-tax">Ex Tax: $210.00</span> </p>
+                  </div>
+                  <div class="button-group">
+                    <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="addtocart-btn" >Add To Cart</button>
+                    <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                  </div>
+                </div>
+              </div>
+              <!-- Pdroduct 10 - Best Seller -->
+              <div class="item">
+                <div class="product-thumb transition">
+                  <div class="image product-imageblock">
+                    <a href="product.html">
+                      <img src="image/product/product10.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" />
+                    </a>
+                    <div class="button-group">
+                      <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                      <button type="button" class="addtocart-btn" >Add To Cart</button>
+                      <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                    </div>
+                  </div>
+                  <div class="caption product-detail">
+                    <h4 class="product-name"><a href="product.html" title="lorem ippsum dolor dummy">Samsung Note 8</a></h4>
+                    <p class="price product-price"> <span class="price-new">$20.00</span> <span class="price-old">$30.00</span> <span class="price-tax">Ex Tax: $210.00</span> </p>
+                  </div>
+                  <div class="button-group">
+                    <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="addtocart-btn" >Add To Cart</button>
+                    <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                  </div>
+                </div>
+              </div>
+              <!-- Pdroduct 11 - Best Seller -->
+              <div class="item">
+                <div class="product-thumb transition">
+                  <div class="image product-imageblock">
+                    <a href="product.html">
+                      <img src="image/product/product11.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" />
+                    </a>
+                    <div class="button-group">
+                      <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                      <button type="button" class="addtocart-btn" >Add To Cart</button>
+                      <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                    </div>
+                  </div>
+                  <div class="caption product-detail">
+                    <h4 class="product-name"><a href="product.html" title="lorem ippsum dolor dummy">Samsung Note 8</a></h4>
+                    <p class="price product-price"> <span class="price-new">$18.00</span> <span class="price-old">$25.00</span> <span class="price-tax">Ex Tax: $210.00</span> </p>
+                  </div>
+                  <div class="button-group">
+                    <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    <button type="button" class="addtocart-btn" >Add To Cart</button>
+                    <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<!--       <div class="parallax">
+        <ul id="testimonial" class="row owl-carousel product-slider">
+          <li class="item">
+            <div class="panel-default">
+              <div class="testimonial-image"><img src="image/t1.jpg" alt="#"></div>
+              <div class="testimonial-name"><h2>Janet Wilson</h2></div>
+              <div class="testimonial-designation"><p>Web Designer</p></div>
+              <div class="testimonial-desc">Rem ipsum doLoremRem ipsum doLorem ipsum ut labore et dolore ma ipsum ut labore et <br> dolore  Rem ipsum doLorem ipsum ut labore et dolore mamagna.Lorem ipsum doLorem ipsum dolor sit amet, consectetur adipisicing.</div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="panel-default">
+              <div class="testimonial-image"><img src="image/t2.jpg" alt="#"></div>
+              <div class="testimonial-name"><h2>Linda Howard</h2></div>
+              <div class="testimonial-designation"><p>Web Deweloper</p></div>
+              <div class="testimonial-desc">Rem ipsum doLoremRem ipsum doLorem ipsum ut labore et dolore ma ipsum ut labore et <br> dolore  Rem ipsum doLorem ipsum ut labore et dolore mamagna.Lorem ipsum doLorem ipsum dolor sit amet, consectetur adipisicing.</div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="panel-default">
+              <div class="testimonial-image"><img src="image/t3.jpg" alt="#"></div>
+              <div class="testimonial-name"><h2>Janet Wilson</h2></div>
+              <div class="testimonial-designation"><p>Web Designer</p></div>
+              <div class="testimonial-desc">Rem ipsum doLoremRem ipsum doLorem ipsum ut labore et dolore ma ipsum ut labore et <br> dolore  Rem ipsum doLorem ipsum ut labore et dolore mamagna.Lorem ipsum doLorem ipsum dolor sit amet, consectetur adipisicing.</div>
+
+            </div>
+          </li>
+          <li class="item">
+            <div class="panel-default">
+              <div class="testimonial-image"><img src="image/t4.jpg" alt="#"></div>
+              <div class="testimonial-name"><h2>Linda Howard</h2></div>
+              <div class="testimonial-designation"><p>Web Deweloper</p></div>
+              <div class="testimonial-desc">Rem ipsum doLoremRem ipsum doLorem ipsum ut labore et dolore ma ipsum ut labore et <br> dolore  Rem ipsum doLorem ipsum ut labore et dolore mamagna.Lorem ipsum doLorem ipsum dolor sit amet, consectetur adipisicing.</div>
+
+            </div>
+          </li>
+        </ul>
+      </div>
+ -->
+
+<!--       <h3 class="productblock-title">Featured Products</h3>
+      <div class="box">
+        <div id="feature-slider" class="row owl-carousel product-slider">
+          <div class="item product-slider-item">
+            <div class="product-thumb transition">
+              <div class="image product-imageblock">
+                <a href="product.html">
+                  <img src="image/product/product4.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" />
+                </a>
+                <div class="button-group">
+                  <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                  <button type="button" class="addtocart-btn" >Add To Cart</button>
+                  <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                </div>
+              </div>
+              <div class="caption product-detail">
+                <h4 class="product-name"><a href="product.html" title="lorem ippsum dolor dummy">lorem ippsum dolor dummy</a></h4>
+                <p class="price product-price"> <span class="price-new">$254.00</span> <span class="price-old">$272.00</span> <span class="price-tax">Ex Tax: $210.00</span> </p>
+              </div>
+              <div class="button-group">
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                <button type="button" class="addtocart-btn" >Add To Cart</button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="item product-slider-item">
+            <div class="product-thumb transition">
+              <div class="image product-imageblock"> <a href="product.html"> <img src="image/product/product5.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
+                <div class="button-group">
+                  <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                  <button type="button" class="addtocart-btn" >Add To Cart</button>
+                  <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                </div>
+              </div>
+              <div class="caption product-detail">
+                <h4 class="product-name"><a href="product.html" title="lorem ippsum dolor dummy">lorem ippsum dolor dummy</a></h4>
+                <p class="price product-price"> <span class="price-new">$254.00</span> <span class="price-old">$272.00</span> <span class="price-tax">Ex Tax: $210.00</span> </p>
+              </div>
+              <div class="button-group">
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                <button type="button" class="addtocart-btn" >Add To Cart</button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="item product-slider-item">
+            <div class="product-thumb transition">
+              <div class="image product-imageblock"> <a href="product.html"> <img src="image/product/product6.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
+                <div class="button-group">
+                  <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                  <button type="button" class="addtocart-btn" >Add To Cart</button>
+                  <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                </div>
+              </div>
+              <div class="caption product-detail">
+                <h4 class="product-name"><a href="product.html" title="lorem ippsum dolor dummy">lorem ippsum dolor dummy</a></h4>
+                <p class="price product-price"> <span class="price-new">$254.00</span> <span class="price-old">$272.00</span> <span class="price-tax">Ex Tax: $210.00</span> </p>
+              </div>
+              <div class="button-group">
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                <button type="button" class="addtocart-btn" >Add To Cart</button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="item product-slider-item">
+            <div class="product-thumb transition">
+              <div class="image product-imageblock"> <a href="#"> <img src="image/product/product7.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
+                <div class="button-group">
+                  <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                  <button type="button" class="addtocart-btn" >Add To Cart</button>
+                  <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                </div>
+              </div>
+              <div class="caption product-detail">
+                <h4 class="product-name"><a href="product.html" title="lorem ippsum dolor dummy">lorem ippsum dolor dummy</a></h4>
+                <p class="price product-price"> <span class="price-new">$254.00</span> <span class="price-old">$272.00</span> <span class="price-tax">Ex Tax: $210.00</span> </p>
+              </div>
+              <div class="button-group">
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                <button type="button" class="addtocart-btn" >Add To Cart</button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="item product-slider-item">
+            <div class="product-thumb transition">
+              <div class="image product-imageblock"> <a href="#"> <img src="image/product/product8.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
+                <div class="button-group">
+                  <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                  <button type="button" class="addtocart-btn" >Add To Cart</button>
+                  <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                </div>
+              </div>
+              <div class="caption product-detail">
+                <h4 class="product-name"><a href="product.html" title="lorem ippsum dolor dummy">lorem ippsum dolor dummy</a></h4>
+                <p class="price product-price"> <span class="price-new">$254.00</span> <span class="price-old">$272.00</span> <span class="price-tax">Ex Tax: $210.00</span> </p>
+              </div>
+              <div class="button-group">
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                <button type="button" class="addtocart-btn" >Add To Cart</button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="item product-slider-item">
+            <div class="product-thumb transition">
+              <div class="image product-imageblock"> <a href="#"> <img src="image/product/product1.jpg" alt="lorem ippsum dolor dummy" title="lorem ippsum dolor dummy" class="img-responsive" /> </a>
+                <div class="button-group">
+                  <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                  <button type="button" class="addtocart-btn" >Add To Cart</button>
+                  <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+                </div>
+              </div>
+              <div class="caption product-detail">
+                <h4 class="product-name"><a href="product.html" title="lorem ippsum dolor dummy">lorem ippsum dolor dummy</a></h4>
+                <p class="price product-price"> <span class="price-new">$254.00</span> <span class="price-old">$272.00</span> <span class="price-tax">Ex Tax: $210.00</span> </p>
+              </div>
+              <div class="button-group">
+                <button type="button" class="wishlist" data-toggle="tooltip" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                <button type="button" class="addtocart-btn" >Add To Cart</button>
+                <button type="button" class="compare" data-toggle="tooltip" title="Compare this Product" ><i class="fa fa-exchange"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+
+<!--       <div class="blog">
+        <div class="blog-heading">
+          <h3>Latest Blogs</h3>
+        </div>
+        <div class="blog-inner box">
+          <ul class="list-unstyled blog-wrapper" id="latest-blog">
+            <li class="item blog-slider-item">
+              <div class="panel-default">
+                <div class="blog-image"> <a href="#" class="blog-imagelink"><img src="image/blog/blog_1.jpg" alt="#"></a> <span class="blog-hover"></span> <span class="blog-date">06/07/2019</span> <span class="blog-readmore-outer"><a href="#" class="blog-readmore">Read More</a></span> </div>
+                <div class="blog-content"> <a href="#" class="blog-name">
+                  <h2>Artisan wines from Napa Valley</h2>
+                  </a>
+                  <div class="blog-desc">Rem ipsum doLorem ipsum ut labore et dolore magna.Lorem ipsum doLorem ipsum dolor sit amet, consectetur Lorem ipsum doLorem ipsum dolor sit amet doLorem ipsum dolor sit amet adipisicing...</div>
+                  <a href="#" class="blog-readmore">Read More</a> <span class="blog-date">06/07/2015</span> </div>
+              </div>
+            </li>
+            <li class="item blog-slider-item">
+              <div class="panel-default">
+                <div class="blog-image"> <a href="#" class="blog-imagelink"><img src="image/blog/blog_2.jpg" alt="#"></a> <span class="blog-hover"></span> <span class="blog-date">06/07/2015</span> <span class="blog-readmore-outer"><a href="#" class="blog-readmore">Read More</a></span> </div>
+                <div class="blog-content"> <a href="#" class="blog-name">
+                  <h2>350000+ expert wine ratings</h2>
+                  </a>
+                  <div class="blog-desc">Rem ipsum doLorem ipsum ut labore et dolore magna.Lorem ipsum doLorem ipsum dolor sit amet, consectetur Lorem ipsum doLorem ipsum dolor sit amet doLorem ipsum dolor sit amet adipisicing...</div>
+                  <a href="singale-blog.html" class="blog-readmore">Read More</a> <span class="blog-date">06/07/2015</span> </div>
+              </div>
+            </li>
+            <li class="item blog-slider-item">
+              <div class="panel-default">
+                <div class="blog-image"> <a href="#" class="blog-imagelink"><img src="image/blog/blog_3.jpg" alt="#"></a> <span class="blog-hover"></span> <span class="blog-date">06/07/2015</span> <span class="blog-readmore-outer"><a href="singale-blog.html" class="blog-readmore">Read More</a></span> </div>
+                <div class="blog-content"> <a href="#" class="blog-name">
+                  <h2>A large and rich guide to wine</h2>
+                  </a>
+                  <div class="blog-desc">Rem ipsum doLorem ipsum ut labore et dolore magna.Lorem ipsum doLorem ipsum dolor sit amet, consectetur Lorem ipsum doLorem ipsum dolor sit amet doLorem ipsum dolor sit amet adipisicing...</div>
+                  <a href="singale-blog.html" class="blog-readmore">Read More</a> <span class="blog-date">06/07/2015</span> </div>
+              </div>
+            </li>
+            <li class="item blog-slider-item">
+              <div class="panel-default">
+                <div class="blog-image"> <a href="#" class="blog-imagelink"><img src="image/blog/blog_4.jpg" alt="#"></a> <span class="blog-hover"></span> <span class="blog-date">06/07/2015</span> <span class="blog-readmore-outer"><a href="#" class="blog-readmore">Read More</a></span> </div>
+                <div class="blog-content"> <a href="#" class="blog-name">
+                  <h2>Have your favorite Wine</h2>
+                  </a>
+                  <div class="blog-desc">Rem ipsum doLorem ipsum ut labore et dolore magna.Lorem ipsum doLorem ipsum dolor sit amet, consectetur Lorem ipsum doLorem ipsum dolor sit amet doLorem ipsum dolor sit amet adipisicing...</div>
+                  <a href="#" class="blog-readmore">Read More</a> <span class="blog-date">06/07/2015</span> </div>
+              </div>
+            </li>
+            <li class="item blog-slider-item">
+              <div class="panel-default">
+                <div class="blog-image"> <a href="#" class="blog-imagelink"><img src="image/blog/blog_5.jpg" alt="#"></a> <span class="blog-hover"></span> <span class="blog-date">06/07/2015</span> <span class="blog-readmore-outer"><a href="#" class="blog-readmore">Read More</a></span> </div>
+                <div class="blog-content"> <a href="#" class="blog-name">
+                  <h2>Fast and easy Wine delivery</h2>
+                  </a>
+                  <div class="blog-desc">Rem ipsum doLorem ipsum ut labore et dolore magna.Lorem ipsum doLorem ipsum dolor sit amet, consectetur Lorem ipsum doLorem ipsum dolor sit amet doLorem ipsum dolor sit amet adipisicing...</div>
+                  <a href="#" class="blog-readmore">Read More</a> <span class="blog-date">06/07/2015</span> </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>  -->     
+    </div>
+  </div>
+
+
 </div>
 
 
 
-<div class="container-fluid">
-		 <!-- <div class="caption"> -->
-		 	<h1>FASHION AND CREATIVITY<br> MOBILE COVERS</h1>	 
-		 	<p>
-		 		Sed dapibus est a lorem dictum, id dignissim lacus fermentum. Nulla ut nibh in libero maximus pretium
-			 	Nunc vulputate vel tellus ac elementum. Duis nec tincidunt dolor, ac dictum eros.
-		 	</p>
-	     </<!-- div -->>
-	     <div class="clearfix"></div>
-</div>
 
-	<!-- Best Seller -->
-	<div class="features" id="features">
-		<div class="container">
-			
-			<div class="tabs-box">
-				<h2 class="best-new">Best seller</h2>
-				<div class="clearfh2x"></div>
-			</div>
-  				
-		 	<!-- Product 1 -->
-		 	<div class="product-grid">
-				<a href="single.html">
-					<div class="more-product-info">
-						<span>BEST</span>
-					</div>						
-					<div class="product-img b-link-stripe b-animate-go  thickbox">						   
-						<img src="images/Huawei_Mate_Product_1_img_4.jpg" class="img-responsive" alt=""/>
-						<div class="b-wrapper">
-							<h4 class="b-animate b-from-left  b-delay03">							
-								<button class="btns">ORDER NOW</button>
-							</h4>
-						</div>
-					</div>
-				</a>						
-			</div>			
-				
-			<!-- Product 2 -->
-			<div class="product-grid">
-				<a href="single.html">
-					<div class="more-product-info">
-						<span>BEST</span>
-					</div>						
-					<div class="product-img b-link-stripe b-animate-go  thickbox">
-						<img src="images/Huawei_P30_Product_2_img_1.jpg" class="img-responsive" alt=""/>
-						<div class="b-wrapper">
-							<h4 class="b-animate b-from-left  b-delay03">							
-								<button class="btns">ORDER NOW</button>
-							</h4>
-						</div>
-					</div>
-				</a>					
-			</div>
-				
-			<!-- Product 3 -->
-			<div class="product-grid">
-				<a href="single.html">
-					<div class="more-product-info">
-						<span>BEST</span>
-					</div>						
-					<div class="product-img b-link-stripe b-animate-go  thickbox">
-						<img src="images/Samsung_S_9_Product_1_img_1.jpg" class="img-responsive" alt=""/>
-						<div class="b-wrapper">
-							<h4 class="b-animate b-from-left  b-delay03">							
-								<button class="btns">ORDER NOW</button>
-							</h4>
-						</div>
-					</div>
-				</a>					
-			</div>
-				
-			<div class="clearfix"></div>
-		</div>
-	</div>
-
-
-	<!-- New Arrival Tab -->
-	<div class="features" id="features">
-		<div class="container">
-			
-			<div class="tabs-box">
-					<h2 class="best-new">New Arrivals</h2>
-				<div class="clearfix"></div>
-			</div>
-
-			<!-- Product 4 -->
-			<div class="product-grid">
-				<a href="single.html">
-					<div class="more-product-info">
-						<span>NEW</span>
-					</div>						
-					<div class="product-img b-link-stripe b-animate-go  thickbox">
-						<img src="images/Apple_iPhone_Xs_Product_1_img_1.jpg" class="img-responsive" alt=""/>
-						<div class="b-wrapper">
-							<h4 class="b-animate b-from-left  b-delay03">							
-								<button class="btns">ORDER NOW</button>
-							</h4>
-						</div>
-					</div>
-				</a>					
-			</div>
-
-			<!-- Product 5 -->
-			<div class="product-grid">
-				<a href="single.html">
-					<div class="more-product-info">
-						<span>NEW</span>
-					</div>						
-					<div class="product-img b-link-stripe b-animate-go  thickbox">
-						<img src="images/Apple_iPhone_Xr_Product_2_img_1.jpg" class="img-responsive" alt=""/>
-						<div class="b-wrapper">
-							<h4 class="b-animate b-from-left  b-delay03">							
-								<button class="btns">ORDER NOW</button>
-							</h4>
-						</div>
-					</div>
-				</a>					
-			</div>
-		
-			<!-- Product 6 -->
-			<div class="product-grid">
-				<a href="single.html">
-					<div class="more-product-info">
-						<span>NEW</span>
-					</div>						
-					<div class="product-img b-link-stripe b-animate-go  thickbox">
-						<img src="images/Apple_iPhone_Xr_Product_1_img_1.jpg" class="img-responsive" alt=""/>
-						<div class="b-wrapper">
-							<h4 class="b-animate b-from-left  b-delay03">							
-								<button class="btns">ORDER NOW</button>
-							</h4>
-						</div>
-					</div>
-				</a>					
-			</div>
-
-
-			<div class="clearfix"></div>
-		</div>
-	</div>
-
-	
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="footer-top-cms">
+        <div class="col-sm-7">
+          <div class="newslatter">
+            <form>
+              <h5>Sign up for our Newsletter</h5>
+              <div class="input-group">
+                <input type="text" class=" form-control" placeholder="Your-email@website.com">
+                <button type="submit" value="Sign up" class="btn btn-large btn-primary">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-sm-5">
+          <div class="footer-social">
+            <h5>Social</h5>
+            <ul>
+              <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li class="gplus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li class="youtube"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </div>
+  <a id="scrollup">Scroll</a> </footer>
+<div class="footer-bottom">
+  <div class="container">
+    <div class="copyright"><a class="yourstore" href="http://www.lionode.com/">Flora Mobile Covers &copy; 2019 </a> </div>
+    <div class="footer-bottom-cms">
+      <div class="footer-payment">
+        <ul>
+          <li class="mastero"><a href="#"><img alt="" src="image/payment/mastero.jpg"></a></li>
+          <li class="visa"><a href="#"><img alt="" src="image/payment/visa.jpg"></a></li>
+          <li class="currus"><a href="#"><img alt="" src="image/payment/currus.jpg"></a></li>
+          <li class="discover"><a href="#"><img alt="" src="image/payment/discover.jpg"></a></li>
+          <li class="bank"><a href="#"><img alt="" src="image/payment/bank.jpg"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 
 
-
-<!--fotter//-->
-<div class="fotter-logo">
-	<div class="container">
-		<div class="ftr-logo">
-		 	<h3>
-		 		<a href="index.html">NEW FASHIONS</a>
-		 	</h3>
-		</div>
-		<div class="social-icons">
-			<a href="#" ><span class="in"> </span></a>
-			<a href="#"><span class="you"> </span></a>
-			<a href="#"><span class="twt"> </span></a>
-			<a href="#"><span class="fb"> </span></a>
-		</div>
-		<div class="ftr-info">
-		 	<p>&copy; 2019 All Rights Reseverd</p>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-</div>
-<!--fotter//-->
+<script src="javascript/parally.js"></script> 
+<script>
+  $('.parallax').parally({offset: -40});
+</script>
 
 </body>
 </html>
