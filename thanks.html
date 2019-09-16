@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Elegant Flora</title><meta http-equiv="content-type" content="text/html;charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flora - Thank You</title><meta http-equiv="content-type" content="text/html;charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="e-commerce site well design with responsive view." />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
@@ -20,9 +20,8 @@
 <script src="javascript/global.js" type="text/javascript"></script>
 <script src="owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
 </head>
-<body class="affiliate-login col-2">
+<body class="checkout col-2 left-col">
 <div class="preloader loader" style="display: block; background:#f2f2f2;"> <img src="image/loader.gif"  alt="#"/></div>
-
 
 
 <!-- Header -->
@@ -135,8 +134,6 @@
           <ul class="main-navigation">
             <li><a href="index.html"   class="parent"  >Home</a> </li>
             <li><a href="category.html"   class="parent"  >Collection</a> </li>
-            <li><a href="blog.html" class="parent"  >Blog</a></li>
-            <li><a href="about-us.html" >About us</a></li>
             <li><a href="contact.html" >Contact Us</a> </li>
           </ul>
         </div>
@@ -150,52 +147,60 @@
 <div class="container">
   <ul class="breadcrumb">
     <li><a href="index.html"><i class="fa fa-home"></i></a></li>
-    <li><a href="login.html">Login</a></li>
+    <li><a href="cart.html">Shopping Cart</a></li>
+    <li><a href="checkout.html">Thanks</a></li>
   </ul>
   <div class="row">
+
     <div id="column-left" class="col-sm-3 hidden-xs column-left">
       <div class="column-block">
-        <div class="columnblock-title">Affiliate</div>
-        <div class="affiliate-block">
-          <div class="list-group"> <a href="login.html" class="list-group-item">Login</a> <a href="register.html" class="list-group-item">Register</a> <a href="forgetpassword.html" class="list-group-item">Forgotten Password</a> <a href="#" class="list-group-item">My Account</a> <a href="#" class="list-group-item">Payment Options</a> <a href="#" class="list-group-item">Affiliate Tracking</a> <a href="#" class="list-group-item last">Transactions</a> </div>
+        <div class="columnblock-title">Categories</div>
+        <div class="category_block">
+          <ul class="box-category treeview-list treeview">
+            <li><a href="#" class="activSub">Samsung</a>
+              <ul>
+                <li><a href="#">Note 10</a></li>
+                <li><a href="#">Note 9</a></li>
+                <li><a href="#">Note 8</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="activSub">Apple</a>
+              <ul>
+                <li><a href="#">Iphone Xs</a></li>
+                <li><a href="#">Iphone Xr</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="activSub">Huawei</a>
+              <ul>
+                <li><a href="#">Huawei p30</a></li>
+                <li><a href="#">Huawei mate</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-    <div id="content" class="col-sm-6">
-      <h1>Affiliate Program</h1>
-      <p>maxenlist affiliate program is free and enables members to earn revenue by placing a link or links on their web site which advertises maxenlist or specific products on it. Any sales made to customers who have clicked on those links will earn the affiliate commission. The standard commission rate is currently 5%.</p>
-      <p>For more information, visit our FAQ page or see our Affiliate terms &amp; conditions.</p>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="well">
-            <h2>New Affiliate</h2>
-            <p>
-            <p>I am not currently an affiliate.</p>
-            <p>Click Continue below to create a new affiliate account. Please note that this is not connected in any way to your customer account.</p>
 
-            <a class="btn btn-primary" href="register.html">Continue</a></div>
-        </div>
-        <div class="col-sm-6">
-          <div class="well">
-            <h2>Affiliate Login</h2>
-            <p><strong>I am a returning affiliate.</strong></p>
-            <form action="login.html" method="post" enctype="multipart/form-data">
-              <div class="form-group">
-                <label class="control-label" for="input-email">Affiliate E-Mail</label>
-                <input type="text" name="email" value="" placeholder="Affiliate E-Mail" id="input-email" class="form-control" />
-              </div>
-              <div class="form-group">
-                <label class="control-label" for="input-password">Password</label>
-                <input type="password" name="password" value="" placeholder="Password" id="input-password" class="form-control" />
-                <a href="forgetpassword.html">Forgotten Password</a> </div>
-              <input type="submit" value="Login" class="btn btn-primary" />
-            </form>
+
+    <div class="col-sm-9" id="content">
+      <h1><br><br></h1>
+      <div id="accordion" class="panel-group">
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="thanks">
+              Thank you for yor purchasing
+              <br>
+              your oder <span>#1582659542</span>
+              <br>will be deliver soon
+            </h4>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
 
 
 
@@ -267,6 +272,8 @@
     </div>
   </div>
 </div>
+
+
 
 
 </body>
