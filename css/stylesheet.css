@@ -120,7 +120,7 @@ div.required .control-label:before {
 	text-decoration: none;
 	display: inline-block;
 	color: #808080;
-	background-image: url(../image/pipe.jpg);
+	/*background-image: url(../image/pipe.jpg);*/
     background-position: right center;
     background-repeat: no-repeat;
 }
