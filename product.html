@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
-<title>Elegant Flora</title><meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>Product - Flora Mobile Covers</title><meta http-equiv="content-type" content="text/html;charset=utf-8" />
  <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="e-commerce site well design with responsive view." />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,8 @@
 <link href="css/responsive.css" rel="stylesheet">
 <link href="owl-carousel/owl.carousel.css" type="text/css" rel="stylesheet" media="screen" />
 <link href="owl-carousel/owl.transitions.css" type="text/css" rel="stylesheet" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+<script src="https://kit.fontawesome.com/08012f048d.js"></script>
 <script src="javascript/jquery-2.1.1.min.js" type="text/javascript"></script>
 <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="javascript/jstree.min.js"></script>
@@ -21,36 +23,28 @@
 <script src="owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
 </head>
 <body class="product col-2 left-col">
-<div class="preloader loader" style="display: block; background:#f2f2f2;"> <img src="image/loader.gif"  alt="#"/></div>
 
 
 
 <!-- Header -->
 <header>
   <div class="header-top">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12">
           <div class="top-right pull-right">
             <div id="top-links" class="nav pull-right">
               <ul class="list-inline">
                 <li class="dropdown account">
-                  <a href="#" title="My Account" class="dropdown-toggle" data-toggle="dropdown">
-                    <i class="fa fa-user"></i>
-                    <span>My Account</span>
-                    <span class="caret"></span>
+                  <a href="login.html" title="My Account" class="dropdown-toggle">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <span>Login</span>
                   </a>
-                  <ul class="dropdown-menu dropdown-menu-right">
-                    <li><a href="register.html">Register</a></li>
-                    <li><a href="login.html">Login</a></li>
-                  </ul>
-                </li>
-                <li><a href="#" id="wishlist-total" title="Wish List (0)"><i class="fa fa-heart"></i><span>Wish List</span><span> (0)</span></a></li>
+                  <a href="register.html" title="My Account" class="dropdown-toggle">
+                    <i class="fa fa-user"></i>
+                    <span>Register</span>
+                  </a>
               </ul>
-              <div class="search-box">
-                <input class="input-text" placeholder="Search By Products.." type="text">
-                <button class="search-btn"><i class="fa fa-search"></i></button>
-              </div>
             </div>
           </div>
         </div>
@@ -60,11 +54,12 @@
   <div class="container">
     <div class="header-inner">
       <div class="col-sm-4 col-xs-6 header-left">
+
         <div class="shipping">
-          <div class="shipping-img"></div>
           <div class="shipping-text">(+962) 78-000-1233<br>
             <span class="shipping-detail"> Online Support</span></div>
         </div>
+
       </div>
       <div class="col-sm-4 col-xs-12 header-middle">
         <div class="header-middle-top">
@@ -79,67 +74,39 @@
       </div>
       <div class="col-sm-4 col-xs-12 header-right">
         <div id="cart" class="btn-group btn-block">
-          <button type="button" class="btn btn-inverse btn-block btn-lg dropdown-toggle cart-dropdown-button"> <span id="cart-total"><span class="cart-title">Shopping Cart</span><br>
-          0 item(s) - $0.00</span> </button>
-          <ul class="dropdown-menu pull-right cart-dropdown-menu">
-            <li>
-              <table class="table table-striped">
-                <tbody>
-                  <tr>
-                    <td class="text-center"><a href="#">
-                      <img class="img-thumbnail" title="lorem ippsum dolor dummy" alt="Iphone XR Cover" src="image/product/product7.jpg" style="height: 160px; width: 150px;"></a></td>
-                    <td class="text-left"><a href="#">Ipohne XR Cover</a></td>
-                    <td class="text-right">x 1</td>
-                    <td class="text-right">$154.00</td>
-                    <td class="text-center"><button class="btn btn-danger btn-xs" title="Remove" type="button"><i class="fa fa-times"></i></button></td>
-                  </tr>
-                </tbody>
-              </table>
-            </li>
-            <li>
-              <div>
-                <table class="table table-bordered">
-                  <tbody>
-                    <tr>
-                      <td class="text-right"><strong>Sub-Total</strong></td>
-                      <td class="text-right">$120.00</td>
-                    </tr>
-                    <tr>
-                      <td class="text-right"><strong>Eco Tax (-2.00)</strong></td>
-                      <td class="text-right">$2.00</td>
-                    </tr>
-                    <tr>
-                      <td class="text-right"><strong>VAT (20%)</strong></td>
-                      <td class="text-right">$42.00</td>
-                    </tr>
-                    <tr>
-                      <td class="text-right"><strong>Total</strong></td>
-                      <td class="text-right">$154.00</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <p class="text-right"> <span class="btn-viewcart"><a href="cart.html"><strong><i class="fa fa-shopping-cart"></i> View Cart</strong></a></span> <span class="btn-checkout"><a href="checkout.html"><strong><i class="fa fa-share"></i> Checkout</strong></a></span> </p>
-              </div>
-            </li>
-          </ul>
+          <p class="text-right">
+            <span class="btn-viewcart">
+              <a href="index.html">
+                <strong>
+                  <i class="fa fa-home"></i> Home
+                </strong>
+              </a>
+            </span>
+            <span class="btn-viewcart">
+              <a href="category.html">
+                <strong>
+                  <i class="fa fa-mobile"></i> Products
+                </strong>
+              </a>
+            </span>
+            <span class="btn-viewcart">
+              <a href="contact.html">
+                <strong>
+                  <i class="fa fa-envelope"></i> Contact Us
+                </strong>
+              </a>
+            </span>
+            <span class="btn-viewcart view-cart">
+              <a href="cart.html">
+                <strong>
+                  <i class="fa fa-shopping-cart"></i> View Cart
+                </strong>
+              </a>
+            </span>
+          </p>
         </div>
       </div>
     </div>
-    <nav id="menu" class="navbar">
-      <div class="nav-inner">
-        <div class="navbar-header"><span id="category" class="visible-xs">Categories</span>
-          <button type="button" class="btn btn-navbar navbar-toggle" ><i class="fa fa-bars"></i></button>
-        </div>
-
-        <div class="navbar-collapse">
-          <ul class="main-navigation">
-            <li><a href="index.html"   class="parent"  >Home</a> </li>
-            <li><a href="category.html"   class="parent"  >Collection</a> </li>
-            <li><a href="contact.html" >Contact Us</a> </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
   </div>
 </header>
 
@@ -154,36 +121,11 @@
 
   <div class="row">
 
-    <div id="column-left" class="col-sm-3 hidden-xs column-left">
-      <div class="column-block">
-        <div class="columnblock-title">Categories</div>
-        <div class="category_block">
-          <ul class="box-category treeview-list treeview">
-            <li><a href="#" class="activSub">Samsung</a>
-              <ul>
-                <li><a href="#">Note 10</a></li>
-                <li><a href="#">Note 9</a></li>
-                <li><a href="#">Note 8</a></li>
-              </ul>
-            </li>
-            <li><a href="#" class="activSub">Apple</a>
-              <ul>
-                <li><a href="#">Iphone Xs</a></li>
-                <li><a href="#">Iphone Xr</a></li>
-              </ul>
-            </li>
-            <li><a href="#" class="activSub">Huawei</a>
-              <ul>
-                <li><a href="#">Huawei p30</a></li>
-                <li><a href="#">Huawei mate</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+<!--     <div id="column-left" class="col-sm-3 hidden-xs column-left">
 
-    <div id="content" class="col-sm-9">
+    </div> -->
+
+    <div id="content" class="col-sm-12">
       <div class="row">
         <div class="col-sm-6">
           <div class="thumbnails">

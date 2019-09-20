@@ -1,0 +1,133 @@
+@font-face{
+	font-family: logo;
+	src: url(../fonts/SairaStencilOne-Regular.ttf);
+}
+
+.logo_h3{
+	font-family: logo;
+	font-size: 40px;
+	color: #fa558f;
+	line-height: 0.9em;
+}
+
+.logo_h3 span{
+	font-size: 30px;
+	color: #ffc5de;
+}
+
+#cart .btn-viewcart a, #cart .btn-checkout a {
+	color: #fa558f;
+	background: #fff;
+}
+
+#cart .btn-viewcart a:hover, #cart .btn-checkout a:hover {
+	color: #fff;
+	background: #fa558f;
+}
+
+.shipping-text , .shipping-detail {
+	color: #fa558f;
+}
+
+.shipping{
+	margin-left: 10px;
+}
+
+#cart .view-cart a{
+	color: #fff;
+	background: #000;
+}
+
+.facebook, .linkedin, .twitter, .youtube{
+	font-size: 20px;
+}
+
+@media (min-width: 1200px) {
+	.img-responsive1{
+		width: 1903px;
+		height: 700px;
+	}
+}
+
+
+@media (max-width: 1000px) {
+	.img-responsive1{
+		width: 1600px;
+		height: 600px;
+	}
+}
+
+@media (max-width: 900px) {
+	.img-responsive1{
+		width: 1200px;
+		width: 550px;
+	}
+}
+
+@media (max-width: 800px) {
+	.img-responsive1{
+		width: 1100px;
+		height: 500px;
+	}
+}
+
+@media (max-width: 700px) {
+	.img-responsive1{
+		height:1000 px;
+		height: 450px;
+	}
+}
+
+@media (max-width: 600px) {
+	.img-responsive1{
+		width: 550px;
+		height: 350px;
+	}
+}
+
+@media (max-width: 500px) {
+	.img-responsive1{
+		width: 500px;
+		height: 250px;
+	}
+}
+
+@media (max-width: 400px) {
+	.img-responsive1{
+		width: 400px;
+		height: 200px;
+	}
+}
+
+
+@media (min-width: 768px) {
+}
+
+
+.products{
+	color: #fff;
+	background-color: #fa558f;
+	padding: 10px;
+	line-height: 40px;
+}
+
+
+.products:hover{
+	color: #fff;
+	background-color: #000;
+}
+
+.products1{
+	color: #fff;
+	background-color: #ffc5de;
+	padding: 10px;
+	line-height: 50px;
+}
+
+
+.products1:hover{
+	color: #fff;
+	background-color: #ccc;
+}
+
+#content{width: 100% !important;}
