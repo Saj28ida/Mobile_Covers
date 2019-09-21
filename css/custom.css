@@ -37,12 +37,12 @@
 	color: #fff;
 	background: #000;
 }
-
+	
 .facebook, .linkedin, .twitter, .youtube{
 	font-size: 20px;
 }
 
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
 	.img-responsive1{
 		width: 1903px;
 		height: 700px;
@@ -101,7 +101,7 @@
 
 
 @media (min-width: 768px) {
-}
+}*/
 
 
 .products{
@@ -131,3 +131,18 @@
 }
 
 #content{width: 100% !important;}
+
+
+.thanks{
+	font-size: 60px;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+.thanks span{
+	color: #fa558f;
+}
+
+.yourstore{
+	cursor: default;
+}
